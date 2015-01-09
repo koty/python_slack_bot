@@ -7,7 +7,7 @@ from . import BaseBot
 
 class Daniel(BaseBot):
 
-    _NAME = "daniel"
+    _NAME = "くらた"
     _ICON = ":penguin:"
 
     def echo(self):
@@ -21,3 +21,10 @@ class Daniel(BaseBot):
         if self.msg.command != "yo":
             return ""
         return "yo"
+
+    def ohayo_guru(self):
+        """オハヨーグルト"""
+        if self.msg.command != "おはヨーグルト":
+            return ""
+        return "おはﾖｰｸﾞﾙﾄｫｵｵ!!"
+    
