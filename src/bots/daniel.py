@@ -1,14 +1,14 @@
 # coding: utf-8
 
 from __future__ import absolute_import, division, print_function
-
+import os
 from . import BaseBot
 
 
 class Daniel(BaseBot):
 
-    _NAME = "くらた"
-    _ICON = ":man_with_gua_pi_mao:"
+    _NAME = os.environ['BOT_NAME']
+    _ICON = os.environ['ICON_NAME']
 
     def echo(self):
         """オウム返しをする"""
