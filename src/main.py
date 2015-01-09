@@ -19,7 +19,7 @@ def index():
 
 
 @app.route('/response', methods=['POST'])
-def daniel():
+def response():
     """Daniel is a BOT, who reacts with calling his name
     1) yo
     you: daniel yo
@@ -37,3 +37,6 @@ def daniel():
     bot = Daniel(msg)
     return bot.say()
 
+@app.route('/response', methods=['GET'])
+def response_get():
+    return "request by 'POST' method"

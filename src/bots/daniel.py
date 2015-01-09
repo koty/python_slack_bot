@@ -28,3 +28,9 @@ class Daniel(BaseBot):
             return ""
         return "おはﾖｰｸﾞﾙﾄｫｵｵ!!"
     
+    def good_job(self):
+        """good job"""
+        if not self.msg.command.startsWith("good"):
+            return ""
+        return "you're welcome"
+    
