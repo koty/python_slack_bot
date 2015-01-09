@@ -18,7 +18,7 @@ def index():
     return "Hello Python Slack Bot"
 
 
-@app.route('/daniel', methods=['POST'])
+@app.route('/response', methods=['POST'])
 def daniel():
     """Daniel is a BOT, who reacts with calling his name
     1) yo

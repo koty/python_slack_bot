@@ -38,7 +38,7 @@ class Message(object):
             logging.debug(msg.args)
             if len(msg.args) >= 2:
                 msg.command = msg.args[1]
-        except Exception, e:
+        except Exception as e:
             logging.error(e)
         return msg
 
