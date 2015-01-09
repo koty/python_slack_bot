@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="34651ae3-ccc5-4d39-a956-2a24815f4a6e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bots/daniel.py" afterPath="$PROJECT_DIR$/src/bots/daniel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python_slack_bot.iml" afterPath="$PROJECT_DIR$/.idea/python_slack_bot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python_slack_bot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85820895" vertical-offset="270" max-vertical-offset="705">
+            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="705">
               <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
               <folding>
                 <element signature="e#66#130#0" expanded="true" />
@@ -40,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="daniel.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="daniel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bots/daniel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="585">
+            <state vertical-scroll-proportion="0.7761194" vertical-offset="183" max-vertical-offset="585">
               <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding />
             </state>
@@ -63,8 +64,8 @@
       <file leaf-file-name="message.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/message.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="780">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="780">
+              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -79,9 +80,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/message.py" />
         <option value="$PROJECT_DIR$/src/bots/daniel.py" />
-        <option value="$PROJECT_DIR$/src/main.py" />
       </list>
     </option>
   </component>
@@ -185,8 +186,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -498,7 +499,7 @@
       <option name="number" value="Default" />
       <updated>1420701023260</updated>
       <workItem from="1420701023882" duration="457000" />
-      <workItem from="1420769458211" duration="1811000" />
+      <workItem from="1420769458211" duration="2243000" />
     </task>
     <task id="LOCAL-00001" summary="fix module not found">
       <created>1420770207067</created>
@@ -522,7 +523,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2268000" />
+    <option name="totallyTimeSpent" value="2700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="29" width="1241" height="733" extended-state="0" />
@@ -639,14 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="780">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CONTRIB.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -709,21 +702,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bots/daniel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="585">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85820895" vertical-offset="270" max-vertical-offset="705">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="705">
           <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding>
             <element signature="e#66#130#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="780">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bots/daniel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7761194" vertical-offset="183" max-vertical-offset="585">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

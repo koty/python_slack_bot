@@ -30,7 +30,7 @@ class Daniel(BaseBot):
     
     def good_job(self):
         """good job"""
-        if not self.msg.command.startsWith("good"):
+        if not self.msg.command.startswith("good"):
             return ""
         return "you're welcome"
     
