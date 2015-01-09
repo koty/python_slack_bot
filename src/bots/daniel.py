@@ -8,7 +8,7 @@ from . import BaseBot
 class Daniel(BaseBot):
 
     _NAME = "くらた"
-    _ICON = ":penguin:"
+    _ICON = ":man_with_gua_pi_mao:"
 
     def echo(self):
         """オウム返しをする"""
